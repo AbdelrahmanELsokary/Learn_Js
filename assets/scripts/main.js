@@ -1,3 +1,28 @@
+/*  
+  ?JavaScript Number Methods
+ * .toString()
+ * .toFixed()
+ * Math.max()
+ * Math.min()
+ * Number()
+ * Math.
+ * isNaN
+ * parsFloat
+ * parseInt
+ */
+
+// let number = 10;
+// let number1 = 11.4;
+// let number2 = 11.8;
+// console.log(number.toString()); //Convert from number to string
+// console.log(number2.toFixed()); //Format a decimal number (decimal number) and specify the number of digits after the decimal point.
+// console.log(Math.max(55, 5, 3)); // to find the largest value among a set of numbers.
+// console.log(Math.min(55, 5, 3)); // to find the smaller value among a set of numbers.
+// console.log(Number()); //It is a compact object used to represent and manipulate numerical values. It can be dealt with both integers and decimals.
+// console.log(Math.PI); //An intrinsic object that provides basic mathematics functionality and constants.
+// console.log(isNaN(888 + "hl")); //is a built-in function used to check if a given value is not a number. They are mainly used to check values that cannot be converted to numbers.
+// console.log(parseFloat("90999.99890")); //A compact function used to convert a string to a float. This function converts the part of the text string that can be converted to a decimal number, and ignores anything after the number if it is not convertible.
+// console.log(parseInt("5.9")); //A built-in function used to convert a string to an integer. This function converts the text string to an integer using the convertible part of the string and ignoring any non-convertible part.
 
 /*
   !JavaScript String Methods
