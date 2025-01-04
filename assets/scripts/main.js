@@ -57,6 +57,7 @@ console.log(myName.split(" ")); //Splits strings into an array of parts based on
 */
 
 //--------------------------------------------------\\
+/*
 
 function squareRoot(number) {
   if (typeof number == "number") {
@@ -69,7 +70,7 @@ function squareRoot(number) {
 
 let result = squareRoot(100);
 console.log(result);
-
+ */
 //----------------------------------\\
 
 /*
@@ -87,7 +88,6 @@ let seconds = convertMinutesIntoSeconds(1);
 console.log(seconds);
  */
 
-
 /*
 function convertMinutesIntoSeconds(minutes) {
   if (!isNaN(minutes)) {
@@ -99,3 +99,17 @@ function convertMinutesIntoSeconds(minutes) {
 
 convertMinutesIntoSeconds(60);
  */
+
+//------------------------\\
+
+function returnTheNextNumber(number) {
+  if (!isNaN(number)) {
+    ++number;
+  } else {
+    console.log("NaN");
+  }
+  return number;
+}
+
+let number = returnTheNextNumber(6);
+console.log(number);
