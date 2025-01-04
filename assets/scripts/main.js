@@ -69,3 +69,33 @@ function squareRoot(number) {
 
 let result = squareRoot(100);
 console.log(result);
+
+//----------------------------------\\
+
+/*
+function convertMinutesIntoSeconds(minutes) {
+  if (typeof minutes == "number") {
+    minutes *= 60;
+  } else {
+    console.log("Error");
+  }
+  return minutes;
+}
+
+let seconds = convertMinutesIntoSeconds(1);
+
+console.log(seconds);
+ */
+
+
+/*
+function convertMinutesIntoSeconds(minutes) {
+  if (!isNaN(minutes)) {
+    console.log(minutes * 60);
+  } else {
+    console.log("Error");
+  }
+}
+
+convertMinutesIntoSeconds(60);
+ */
