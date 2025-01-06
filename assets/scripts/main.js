@@ -102,14 +102,59 @@ convertMinutesIntoSeconds(60);
 
 //------------------------\\
 
-function returnTheNextNumber(number) {
-  if (!isNaN(number)) {
-    ++number;
-  } else {
-    console.log("NaN");
-  }
-  return number;
+// function returnTheNextNumber(number) {
+//   if (!isNaN(number)) {
+//     ++number;
+//   } else {
+//     console.log("NaN");
+//   }
+//   return number;
+// }
+
+// let number = returnTheNextNumber(6);
+// console.log(number);
+
+//*Dealing with HTML elements
+
+/*
+ * 1> document.getElementById("IdName");
+ * 2> document.getElementsByTagName("TagName");
+ * 3> document.getElementsByClassName("ClassName");
+ * 4> document.querySelector(".myClass");
+ * 5> document.querySelectorAll("");
+ */
+
+// document.getElementById("my_name").style.color = "red";
+
+let days = document.getElementById("days");
+
+let daysOption = "";
+for (let i = 1; i <= 31; i++) {
+  daysOption += `<option>${i}</option>`;
+}
+days.innerHTML = daysOption;
+
+//--------------------\\
+
+let months = document.getElementById("months");
+
+let monthsArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+let monthsOption = "";
+
+for (let i = 0; i < monthsArr.length; i++) {
+  monthsOption += `<option>${monthsArr[i]}</option>`;
+}
+months.innerHTML = monthsOption;
+
+//------------------------------\\
+
+let years = document.getElementById("years");
+
+let yearsOption = "";
+
+for (let i = 1955; i <= 2025; i++) {
+  yearsOption += `<option>${i}</option>`;
 }
 
-let number = returnTheNextNumber(6);
-console.log(number);
+years.innerHTML = yearsOption;
