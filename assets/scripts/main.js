@@ -126,35 +126,55 @@ convertMinutesIntoSeconds(60);
 
 // document.getElementById("my_name").style.color = "red";
 
-let days = document.getElementById("days");
+// let days = document.getElementById("days");
 
-let daysOption = "";
-for (let i = 1; i <= 31; i++) {
-  daysOption += `<option>${i}</option>`;
-}
-days.innerHTML = daysOption;
+// let daysOption = "";
+// for (let i = 1; i <= 31; i++) {
+//   daysOption += `<option>${i}</option>`;
+// }
+// days.innerHTML = daysOption;
 
-//--------------------\\
+// //--------------------\\
 
-let months = document.getElementById("months");
+// let months = document.getElementById("months");
 
-let monthsArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// let monthsArr = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-let monthsOption = "";
+// let monthsOption = "";
 
-for (let i = 0; i < monthsArr.length; i++) {
-  monthsOption += `<option>${monthsArr[i]}</option>`;
-}
-months.innerHTML = monthsOption;
+// for (let i = 0; i < monthsArr.length; i++) {
+//   monthsOption += `<option>${monthsArr[i]}</option>`;
+// }
+// months.innerHTML = monthsOption;
 
-//------------------------------\\
+// //------------------------------\\
 
-let years = document.getElementById("years");
+// let years = document.getElementById("years");
 
-let yearsOption = "";
+// let yearsOption = "";
 
-for (let i = 1955; i <= 2025; i++) {
-  yearsOption += `<option>${i}</option>`;
-}
+// for (let i = 1955; i <= 2025; i++) {
+//   yearsOption += `<option>${i}</option>`;
+// }
 
-years.innerHTML = yearsOption;
+// years.innerHTML = yearsOption;
+
+document.getElementById("them").onclick = () => {
+  if (document.body.classList.contains("dark-mode")) {
+    document.body.classList.remove("dark-mode");
+  } else {
+    document.body.classList.add("dark-mode");
+  }
+};
+
+// document.getElementById("them").onclick = () => {
+//   document.body.style.color = "red";
+// };
+
+
+
+// document.getElementById("them").onclick = () =>{
+//   document.getElementById("them").innerText = "white";
+// };
+
+

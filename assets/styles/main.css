@@ -1,6 +1,28 @@
-/* div {
-  width: 200px;
-  height: 200px;
-  background-color: floralwhite;
-  color: gray;
-} */
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
+  margin: 0;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+button:hover {
+  transition: all 0.5s;
+  background-color: rgb(19, 19, 95);
+}
